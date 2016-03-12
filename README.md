@@ -24,10 +24,10 @@ sudo npm install -g node-gyp;
 
 cd /path/to/node-sdl-runtime;
 
-# Install all dependencies
+# Install, compile and shrink all dependencies
 ./bin/configure.sh;
 
-# Package all binary runtimes;
+# Package everything into ./dist
 ./bin/package.sh;
 ```
 

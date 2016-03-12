@@ -21,6 +21,7 @@ node-gyp rebuild;
 
 cd $ROOT;
 
+rm -rf build;
 
 rm node_modules/array-index/component.json;
 rm node_modules/array-index/test.js;
