@@ -1,0 +1,33 @@
+{
+  "name": "node-sdl-runtime",
+  "version": "0.0.1",
+  "description": "SDL2 Runtime (using latest and up-to-date FFI bindings)",
+  "main": "src/main.js",
+  "dependencies": {
+    "iconv": "*",
+    "ffi": "*",
+    "ref": "*",
+    "ref-array": "*",
+    "ref-struct": "*",
+    "ref-union": "*",
+    "ref-wchar": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cookiengineer/node-sdl-runtime.git"
+  },
+  "keywords": [
+    "node",
+    "sdl2",
+    "runtime"
+  ],
+  "author": "@cookiengineer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cookiengineer/node-sdl-runtime/issues"
+  },
+  "homepage": "https://github.com/cookiengineer/node-sdl-runtime"
+}
