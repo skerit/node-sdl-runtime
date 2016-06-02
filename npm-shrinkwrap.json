@@ -1,0 +1,20 @@
+{
+ 	"dependencies": {
+		"ref-wchar": {
+			"version": "1.0.1",
+			"from": "ref-wchar@1.0.1",
+			"dependencies": {
+				"iconv": {
+					"version": "~2.2.0",
+					"from": "iconv@~2.1.10",
+					"dependencies": {
+						"nan": {
+							"version": "~2.3.5",
+							"from": "nan@~2.2.1"
+						}
+					}
+				}
+			}
+		}
+	}
+}
